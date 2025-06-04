@@ -1,10 +1,10 @@
 package middleware
 
 import (
-	"awesomeProject/constant"
-	"awesomeProject/dto"
-	"awesomeProject/util"
 	"github.com/gofiber/fiber/v2"
+	"rest-api-test/constant"
+	"rest-api-test/dto"
+	"rest-api-test/util"
 )
 
 func AuthorizationMiddleware(c *fiber.Ctx) error {

@@ -1,8 +1,8 @@
 package router
 
 import (
-	"awesomeProject/controller/auth"
 	"github.com/gofiber/fiber/v2"
+	"rest-api-test/controller/auth"
 )
 
 func AuthorizationRouter(api fiber.Router) {

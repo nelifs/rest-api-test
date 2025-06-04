@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"awesomeProject/constant"
-	"awesomeProject/dto"
 	"errors"
 	"github.com/gofiber/fiber/v2"
+	"rest-api-test/constant"
+	"rest-api-test/dto"
 )
 
 func ErrorHandler(c *fiber.Ctx, err error) error {

@@ -1,4 +1,4 @@
-module awesomeProject
+module rest-api-test
 
 go 1.24
 

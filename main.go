@@ -1,12 +1,12 @@
 package main
 
 import (
-	"awesomeProject/db"
-	"awesomeProject/handler"
-	"awesomeProject/middleware"
-	"awesomeProject/router"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/log"
+	"rest-api-test/db"
+	"rest-api-test/handler"
+	"rest-api-test/middleware"
+	"rest-api-test/router"
 )
 
 func main() {
