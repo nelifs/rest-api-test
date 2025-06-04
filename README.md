@@ -1,2 +1,2 @@
 # REST API on GO
-test project to learn go
+simple project to learn go
